@@ -1,0 +1,34 @@
+{
+  "positions": [
+    {
+      "label": "Bridge",
+      "audio": "1.mp3",
+      "active": [
+        {
+          "pickup": "bridge"
+        }
+      ]
+    },
+    {
+      "label": "Bridge + Neck",
+      "audio": "2.mp3",
+      "active": [
+        {
+          "pickup": "bridge"
+        },
+        {
+          "pickup": "neck"
+        }
+      ]
+    },
+    {
+      "label": "Neck",
+      "audio": "3.mp3",
+      "active": [
+        {
+          "pickup": "neck"
+        }
+      ]
+    }
+  ]
+}

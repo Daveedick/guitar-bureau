@@ -1,0 +1,377 @@
+{
+  "format": "gbs-public-export/v1",
+  "sourceCommit": "e0833ed97f530e800cc4c20074b0ecd3ac86bb27",
+  "canonicalSourceCommit": "61e3819f1af141965d1a3ce8bb09e4b8f8869bd7",
+  "source": {
+    "project": "gbs",
+    "ref": "main"
+  },
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "25dd835269c83e6686fabc752eab72cd9aeab95f9894990d3d1bbe46eea4d928"
+    },
+    {
+      "path": ".nvmrc",
+      "sha256": "68ca3fba3b7e864770cb61aeb306d4bd4354b68ab4dd38450860c5d823e42a53"
+    },
+    {
+      "path": ".prettierrc.json",
+      "sha256": "cb6480fdfb622532f80568a82240ac0ce9b7bffb4c3ea69bb300857dafb6a934"
+    },
+    {
+      "path": "app/app.vue",
+      "sha256": "e20e27cc137756573b3b9376955da6c9df4f9a98063868fd5236b4898a7952e3"
+    },
+    {
+      "path": "app/assets/css/main.css",
+      "sha256": "56ce40a0e2682ed195bdf229757375b4e48493515155abc616cc91d82478121d"
+    },
+    {
+      "path": "app/components/GuitarPlayer.vue",
+      "sha256": "0ac47437a4a10f054e4c65e75ec1b7dfb883dc308af4325363c6788af01c4f49"
+    },
+    {
+      "path": "app/components/PickupDiagram.vue",
+      "sha256": "271105dd98c2716ba0cdfddf60c6ad39119085606249e4789c243e7010bfad46"
+    },
+    {
+      "path": "app/data/guitars.ts",
+      "sha256": "65933e3745e42e76de8b90f3c6b2a64f14aed29f8fbcb6d80902ca4a4030d6c8"
+    },
+    {
+      "path": "app/error.vue",
+      "sha256": "bff0bb253b410aeebcdacad74186b2aff9c035fcc3e068090a87321480943efe"
+    },
+    {
+      "path": "app/pages/guitars/[slug].vue",
+      "sha256": "2f9c35f1912297327b2719e74987041851467350722275871a88a3257884b3ff"
+    },
+    {
+      "path": "app/pages/index.vue",
+      "sha256": "40e397b02c0c97af1db3d0fdfe4c50d34bf2c90e4e494ee519d2b2d3fbbc39c5"
+    },
+    {
+      "path": "app/utils/audio-player.ts",
+      "sha256": "8a3a30331a369c834a87a077f4b3bf58d93d38c1a66fd2c0029f31095deee6ed"
+    },
+    {
+      "path": "docs/asset-manifest.json",
+      "sha256": "0eb4706f4677a6f03662a8eac2935d3b15c3907a9964b373a628cd1a4d758b01"
+    },
+    {
+      "path": "nuxt.config.ts",
+      "sha256": "aa5e236d840f4a4e1a0bd0db30198759969e3369749a404e07307014edd0c1cc"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "4d0cd2a09349662ef2b140b6151e43a78da2c74409b49e89ce3e68bcd3c003ff"
+    },
+    {
+      "path": "package.json",
+      "sha256": "dcaab773f55c9afff10b07e9f792ba6852bb34f25680773b65b6f3cdbeadab61"
+    },
+    {
+      "path": "playwright.config.ts",
+      "sha256": "efd79d7fa368936a5ec7c4d7d3c4467c364478ff53f42e05c2f4176c0bbf3a13"
+    },
+    {
+      "path": "public/audio/black-strat/clean/1.mp3",
+      "sha256": "7fd1b2e59091a134da43c2d456a3aa5737048f68917c2a5e8c18e6e52fc6a611"
+    },
+    {
+      "path": "public/audio/black-strat/clean/2.mp3",
+      "sha256": "ce0ae63d2098e72748c493a7859928ebb40a61a6bb4a8a0f5b664c98479241fb"
+    },
+    {
+      "path": "public/audio/black-strat/clean/3.mp3",
+      "sha256": "ac856466f6567dcb8d6e14f6901c8b9f7fdf3a51fa1dd97b32e093b3d759e884"
+    },
+    {
+      "path": "public/audio/black-strat/clean/4.mp3",
+      "sha256": "b41b5212d4a6cebfd9a5aab1585daff13707904c13973edd4a09c6af5c5b0521"
+    },
+    {
+      "path": "public/audio/black-strat/clean/5.mp3",
+      "sha256": "f77b3860d4aae43c023d56f3a545935efa49a67f4ee11dd63654a6d1b22821b1"
+    },
+    {
+      "path": "public/audio/black-strat/crunch/1.mp3",
+      "sha256": "d2ff3b947f8123c55f14875de80911c853b782f27328cacde6c891bc2378911c"
+    },
+    {
+      "path": "public/audio/black-strat/crunch/2.mp3",
+      "sha256": "22f47c0c5f5b29d0e82aaaf78525cd0f581312981896a68e3f8ffdd3e9044e50"
+    },
+    {
+      "path": "public/audio/black-strat/crunch/3.mp3",
+      "sha256": "9fca92373194df5873862a136d695c3f63162133fb5c78080e42ae1f2496a4e1"
+    },
+    {
+      "path": "public/audio/black-strat/crunch/4.mp3",
+      "sha256": "8d0e08be5aa6ee7cce0916a237cd7d7f6ed9c7b88c9c9084d80f7f67464733f0"
+    },
+    {
+      "path": "public/audio/black-strat/crunch/5.mp3",
+      "sha256": "f09c161f73fd636e0d91dc087f40bfb571d4dbc72c8606c509d078ca0781d082"
+    },
+    {
+      "path": "public/audio/blue-strat/clean/1.mp3",
+      "sha256": "76c9dc8b717d63787d3f7b59cd57ccfff49fb4742e775a655a1ca729a9e86f19"
+    },
+    {
+      "path": "public/audio/blue-strat/clean/2.mp3",
+      "sha256": "6b716cd81a6baca0793de8c5d03feb6691549f788e90840c044844a0c4555d5e"
+    },
+    {
+      "path": "public/audio/blue-strat/clean/3.mp3",
+      "sha256": "0d8e4ed9c63b4f53ddbbab6573a6a6cf76ff539150899e7dcfd3e15ef34271a1"
+    },
+    {
+      "path": "public/audio/blue-strat/clean/4.mp3",
+      "sha256": "ac4258b3415c0b946fc36c5455d3ca416421f76c46c26f6ecc2d80308a8085d4"
+    },
+    {
+      "path": "public/audio/blue-strat/clean/5.mp3",
+      "sha256": "4c80a5b8f07a5d4ff7beaa9bf08d1eb593dd768cbb6d9b5e8ab3274eab5736d5"
+    },
+    {
+      "path": "public/audio/blue-strat/crunch/1.mp3",
+      "sha256": "65ce454b497ee84846f616f30fce24f3834905906b3d1d318be999ce1643b068"
+    },
+    {
+      "path": "public/audio/blue-strat/crunch/2.mp3",
+      "sha256": "7e80e8c0cfd2bf5fbfb0d2b4150d7cf43069b25b9fd77e896ea2d7f524a86968"
+    },
+    {
+      "path": "public/audio/blue-strat/crunch/3.mp3",
+      "sha256": "f4b9bbbdfea078394fdf25475ed6cce9ce494a9ae87edc0c0d1c5d798085f8ef"
+    },
+    {
+      "path": "public/audio/blue-strat/crunch/4.mp3",
+      "sha256": "9c9f15ff6dbd0783883b46f36cf482bf9516cb0e42c1c9a5e559e7cf797b0f6d"
+    },
+    {
+      "path": "public/audio/blue-strat/crunch/5.mp3",
+      "sha256": "9d478a13ab9b8e2450ed6080f62f6f4d20930823404fe6e05eeaa9bc9d2ffebd"
+    },
+    {
+      "path": "public/audio/gibson-sg/1.mp3",
+      "sha256": "8c82d913895899c704dfb35e7a06b55698d416087b6febc2a832c746fd718d53"
+    },
+    {
+      "path": "public/audio/gibson-sg/2.mp3",
+      "sha256": "9d24d5e29d778e41a1137c16530ff57d117b635b8f882f9641285531e2984be4"
+    },
+    {
+      "path": "public/audio/gibson-sg/3.mp3",
+      "sha256": "328c69545f43d311c39181dde7ddb22b3c174b7a0cf22e06532a005c0d35f122"
+    },
+    {
+      "path": "public/favicon.svg",
+      "sha256": "8fc1f8bc09cb3a7bdf4d6c37b2315be15255ce5259d3027df5d92721a4f56e17"
+    },
+    {
+      "path": "public/images/black-strat-gray-studio.jpg",
+      "sha256": "e2cb6ec023582b739192ad79f50a1d7dfb6cca6f66887b9ad207103316e94817"
+    },
+    {
+      "path": "public/images/blue-gray-studio-light.png",
+      "sha256": "a549be59b9639812c16713adfb8398dd9155f95a17842e592ef99f94068afb5c"
+    },
+    {
+      "path": "public/images/gibson-sg.jpg",
+      "sha256": "bfac6eb2c215bc15273c28da30ee1244da25d6ecb4e5fe04103c431936f902e5"
+    },
+    {
+      "path": "README.md",
+      "sha256": "43520173ac0163dffe8146af300f1204cf29cc39634395a2543f65b7811f25ef"
+    },
+    {
+      "path": "screenshots/catalog-desktop.png",
+      "sha256": "0bda61c1e7a8b9bd422bd56f8dd87d508428a422b38f398c9ed7a99ef852d26c"
+    },
+    {
+      "path": "screenshots/guitar-player-desktop.png",
+      "sha256": "1c62acd08fd6e8731e4f8874bcee5d6e11cf4fee8caf2caff0030a4f84b92694"
+    },
+    {
+      "path": "screenshots/guitar-player-mobile.png",
+      "sha256": "4f5edc5a428a6a0f4ca2ee7dedb79c573d6c17457ef23ee510d8e6c7fa973c11"
+    },
+    {
+      "path": "scripts/verify-assets.mjs",
+      "sha256": "0b322df8584095330413c0c92c5a51feb2f11cbf678d5833d4bc1bcbcc5df596"
+    },
+    {
+      "path": "tests/audio-player.test.ts",
+      "sha256": "2b46cfd351a33200c4603aeb74853a12dafba65e9de133e190ebbd6815eb238e"
+    },
+    {
+      "path": "tests/browser/showroom.spec.ts",
+      "sha256": "2c9a4ba6ac9cc14ad5f1be11063f8ba66f26d82e19b659fa27d77ab71cb1c638"
+    },
+    {
+      "path": "tests/catalog.test.ts",
+      "sha256": "66eaaa057c763829efd9a146eb652cd8f365a4328650768213fda3ecc5d6ee63"
+    },
+    {
+      "path": "tests/fixtures/black-strat/clean.json",
+      "sha256": "d75c07b4d5b7714c573ccf598c031d047e0bfb60300302dca0ee95751e7cf0c1"
+    },
+    {
+      "path": "tests/fixtures/black-strat/crunch.json",
+      "sha256": "d75c07b4d5b7714c573ccf598c031d047e0bfb60300302dca0ee95751e7cf0c1"
+    },
+    {
+      "path": "tests/fixtures/blue-strat/clean.json",
+      "sha256": "d75c07b4d5b7714c573ccf598c031d047e0bfb60300302dca0ee95751e7cf0c1"
+    },
+    {
+      "path": "tests/fixtures/blue-strat/crunch.json",
+      "sha256": "d75c07b4d5b7714c573ccf598c031d047e0bfb60300302dca0ee95751e7cf0c1"
+    },
+    {
+      "path": "tests/fixtures/gibson-sg/demo.json",
+      "sha256": "8594033e4a6c114402111075ff2e47f798200674e0e5cfc60b94d3ccced0b7c3"
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "56f5b528cc102a257b71c01305f8b1456762d85793bd610bf613f2d7c3e1fc84"
+    },
+    {
+      "path": "vitest.config.ts",
+      "sha256": "533b238f9bd2adf2b62cfc0ff181f08e17b9720c526d16c38c7acaa068bf809e"
+    }
+  ],
+  "manifestSelfHash": "omitted to avoid a recursive hash; all other exported files are inventoried above",
+  "mediaAssets": [
+    {
+      "path": "public/audio/black-strat/clean/1.mp3",
+      "sha256": "7fd1b2e59091a134da43c2d456a3aa5737048f68917c2a5e8c18e6e52fc6a611"
+    },
+    {
+      "path": "public/audio/black-strat/clean/2.mp3",
+      "sha256": "ce0ae63d2098e72748c493a7859928ebb40a61a6bb4a8a0f5b664c98479241fb"
+    },
+    {
+      "path": "public/audio/black-strat/clean/3.mp3",
+      "sha256": "ac856466f6567dcb8d6e14f6901c8b9f7fdf3a51fa1dd97b32e093b3d759e884"
+    },
+    {
+      "path": "public/audio/black-strat/clean/4.mp3",
+      "sha256": "b41b5212d4a6cebfd9a5aab1585daff13707904c13973edd4a09c6af5c5b0521"
+    },
+    {
+      "path": "public/audio/black-strat/clean/5.mp3",
+      "sha256": "f77b3860d4aae43c023d56f3a545935efa49a67f4ee11dd63654a6d1b22821b1"
+    },
+    {
+      "path": "public/audio/black-strat/crunch/1.mp3",
+      "sha256": "d2ff3b947f8123c55f14875de80911c853b782f27328cacde6c891bc2378911c"
+    },
+    {
+      "path": "public/audio/black-strat/crunch/2.mp3",
+      "sha256": "22f47c0c5f5b29d0e82aaaf78525cd0f581312981896a68e3f8ffdd3e9044e50"
+    },
+    {
+      "path": "public/audio/black-strat/crunch/3.mp3",
+      "sha256": "9fca92373194df5873862a136d695c3f63162133fb5c78080e42ae1f2496a4e1"
+    },
+    {
+      "path": "public/audio/black-strat/crunch/4.mp3",
+      "sha256": "8d0e08be5aa6ee7cce0916a237cd7d7f6ed9c7b88c9c9084d80f7f67464733f0"
+    },
+    {
+      "path": "public/audio/black-strat/crunch/5.mp3",
+      "sha256": "f09c161f73fd636e0d91dc087f40bfb571d4dbc72c8606c509d078ca0781d082"
+    },
+    {
+      "path": "public/images/black-strat-gray-studio.jpg",
+      "sha256": "e2cb6ec023582b739192ad79f50a1d7dfb6cca6f66887b9ad207103316e94817"
+    },
+    {
+      "path": "public/audio/blue-strat/clean/1.mp3",
+      "sha256": "76c9dc8b717d63787d3f7b59cd57ccfff49fb4742e775a655a1ca729a9e86f19"
+    },
+    {
+      "path": "public/audio/blue-strat/clean/2.mp3",
+      "sha256": "6b716cd81a6baca0793de8c5d03feb6691549f788e90840c044844a0c4555d5e"
+    },
+    {
+      "path": "public/audio/blue-strat/clean/3.mp3",
+      "sha256": "0d8e4ed9c63b4f53ddbbab6573a6a6cf76ff539150899e7dcfd3e15ef34271a1"
+    },
+    {
+      "path": "public/audio/blue-strat/clean/4.mp3",
+      "sha256": "ac4258b3415c0b946fc36c5455d3ca416421f76c46c26f6ecc2d80308a8085d4"
+    },
+    {
+      "path": "public/audio/blue-strat/clean/5.mp3",
+      "sha256": "4c80a5b8f07a5d4ff7beaa9bf08d1eb593dd768cbb6d9b5e8ab3274eab5736d5"
+    },
+    {
+      "path": "public/audio/blue-strat/crunch/1.mp3",
+      "sha256": "65ce454b497ee84846f616f30fce24f3834905906b3d1d318be999ce1643b068"
+    },
+    {
+      "path": "public/audio/blue-strat/crunch/2.mp3",
+      "sha256": "7e80e8c0cfd2bf5fbfb0d2b4150d7cf43069b25b9fd77e896ea2d7f524a86968"
+    },
+    {
+      "path": "public/audio/blue-strat/crunch/3.mp3",
+      "sha256": "f4b9bbbdfea078394fdf25475ed6cce9ce494a9ae87edc0c0d1c5d798085f8ef"
+    },
+    {
+      "path": "public/audio/blue-strat/crunch/4.mp3",
+      "sha256": "9c9f15ff6dbd0783883b46f36cf482bf9516cb0e42c1c9a5e559e7cf797b0f6d"
+    },
+    {
+      "path": "public/audio/blue-strat/crunch/5.mp3",
+      "sha256": "9d478a13ab9b8e2450ed6080f62f6f4d20930823404fe6e05eeaa9bc9d2ffebd"
+    },
+    {
+      "path": "public/images/blue-gray-studio-light.png",
+      "sha256": "a549be59b9639812c16713adfb8398dd9155f95a17842e592ef99f94068afb5c"
+    },
+    {
+      "path": "public/audio/gibson-sg/1.mp3",
+      "sha256": "8c82d913895899c704dfb35e7a06b55698d416087b6febc2a832c746fd718d53"
+    },
+    {
+      "path": "public/audio/gibson-sg/2.mp3",
+      "sha256": "9d24d5e29d778e41a1137c16530ff57d117b635b8f882f9641285531e2984be4"
+    },
+    {
+      "path": "public/audio/gibson-sg/3.mp3",
+      "sha256": "328c69545f43d311c39181dde7ddb22b3c174b7a0cf22e06532a005c0d35f122"
+    },
+    {
+      "path": "public/images/gibson-sg.jpg",
+      "sha256": "bfac6eb2c215bc15273c28da30ee1244da25d6ecb4e5fe04103c431936f902e5"
+    }
+  ],
+  "excludedSourceFiles": [
+    ".agents/skills/gbs-delivery/SKILL.md",
+    ".agents/skills/gbs-delivery/agents/openai.yaml",
+    ".agents/skills/gbs-delivery/references/github-portfolio.md",
+    ".gitlab-ci.yml",
+    ".impeccable/design.json",
+    ".portfolio/export-public.mjs",
+    "AGENTS.md",
+    "DESIGN.md",
+    "PRODUCT.md",
+    "README.md",
+    "docs/asset-manifest.json",
+    "docs/deployment.md",
+    "docs/releases/2026-09-16.md",
+    "docs/showroom-design.md",
+    "docs/sources/black-strat/clean.json",
+    "docs/sources/black-strat/crunch.json",
+    "docs/sources/blue-strat/clean.json",
+    "docs/sources/blue-strat/crunch.json",
+    "docs/sources/gibson-sg/demo.json",
+    "docs/verification.md"
+  ],
+  "synchronization": "one-way export from canonical main; this helper never writes a Git object, remote, branch, or network request"
+}
